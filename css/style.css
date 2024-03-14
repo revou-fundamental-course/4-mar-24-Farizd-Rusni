@@ -17,7 +17,7 @@ body {
   text-align: center;
 }
 
-#formBmi {
+.formBmi {
   text-align: left;
   background-color: #888;
   padding: 16px;
@@ -26,6 +26,8 @@ body {
 .form-result {
   background-color: #888;
   padding: 16px;
+  font-size: 40px;
+  font-weight: 400;
 }
 
 .justify-paragraph {

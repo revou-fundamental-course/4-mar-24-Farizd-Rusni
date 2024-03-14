@@ -10,14 +10,14 @@
     <header>
       <h1>
         <img
-          src="/4-mar-24-Farizd-Rusni/assets/logo-pkm.png"
-          alt="logo-puskesmas"
+          src="/assets/logo-pkm.png"
+          alt="logo-puskesmas.png"
           width="30px"
           height="30px"
         />
         Calculator BMI
         <img
-          src="/4-mar-24-Farizd-Rusni/assets/logo-pkm.png"
+          src="/assets/logo-pkm.png"
           alt="logo-puskesmas"
           width="30px"
           height="30px"
@@ -45,16 +45,16 @@
             </p>
 
             <!-- Form BMI Start -->
-            <div id="formBmi">
-              <p>Jenis Kelamin</p>
-              <input type="radio" id="man" name="sex" />
-              <label for="man" name="sex">Pria</label>
-              <input type="radio" id="woman" name="sex" />
-              <label for="woman" name="sex">Wanita</label>
-              <br />
-
-              <!-- Input Number BMI Start -->
+            <div class="formBmi">
               <form id="myForm">
+                <p>Jenis Kelamin</p>
+                <input type="radio" id="male" name="gender" value="male" />
+                <label for="male" name="gender">Pria</label>
+                <input type="radio" id="female" name="gender" value="female" />
+                <label for="female" name="gender">Wanita</label>
+                <br />
+
+                <!-- Input Number BMI Start -->
                 <p>Berat Badan (kg)</p>
                 <input
                   type="number"
@@ -73,7 +73,7 @@
                 <input
                   type="number"
                   id="h-input"
-                  placeholder="input  your heigt"
+                  placeholder="input  your height"
                 />
                 <label for="height"></label>
                 <br />
@@ -122,7 +122,7 @@
                 <h4 id="bmi-status"></h4>
               </div>
               <div id="bmi-output">
-                <p></p>
+                <p>0</p>
                 <br /><br />
               </div>
               <br />
@@ -163,7 +163,7 @@
     <footer class="container-item">
       <h4>Created By Farizd Rusni 2024</h4>
       <img
-        src="/4-mar-24-Farizd-Rusni/assets/img-ig.png"
+        src="/assets/img-ig.png"
         alt="logo-instagram"
         width="50px"
         height="50px"
