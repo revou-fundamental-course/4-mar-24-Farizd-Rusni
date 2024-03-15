@@ -5,7 +5,7 @@ function Calculate() {
   var result = parseInt(weight) / (parseInt(height) / 100) ** 2;
 
   if (!isNaN(result)) {
-    document.getElementById("bmi-output").innerHTML = result;
+    document.getElementById("bmi-output").innerHTML = result.toFixed(2);
     if (result < 18.5) {
       document.getElementById("bmi-status").innerHTML =
         "Kekurangan Berat Badan";
